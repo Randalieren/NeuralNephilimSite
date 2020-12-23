@@ -1,0 +1,122 @@
+/*Basic Page Setup + fonts*/
+@font-face{
+    
+    font-family: elianto;
+    src: url("fonts/Elianto-Regular.ttf");
+    
+}
+
+@font-face{
+    
+    font-family: doppioOne;
+    src: url("fonts/DoppioOne-Regular.ttf");
+                
+}
+
+html{
+    
+    color: aliceblue;
+    background-image: linear-gradient(#303030, #202020);
+    text-align: center;
+    padding: 10px;
+}
+header{
+
+    font-size:28px;
+    font-family: elianto;
+    margin: 50px;
+    margin-top: 65px;
+    
+}
+
+h2{
+    
+    font-family: elianto;
+    font-size:18px;
+    
+}
+
+h3{
+
+    font-family: doppioOne;
+    font-size: 16px;
+    margin: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+body{
+                
+    display: block;
+    font-family: doppioOne;
+    font-size: 18px;
+    margin: 100px;
+    
+}
+p, p span {
+
+    display: block;
+    font-family: doppioOne;
+    padding: 10px;
+
+}
+
+footer{
+    
+    font-family: doppioOne;
+    font-size: 15px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+a:visited{
+
+    color: aliceblue;
+}
+
+.NavigationBar {
+    
+    display: inline-block;
+    font-family: doppioOne;
+    font-size: 24px;
+    list-style-type: none;
+    
+}
+
+.NavigationBar a{
+
+    color: lightslategray;
+    text-decoration: none;
+    padding: 10px 14px;
+    transition: opacity .2s ease;
+    
+}
+.NavigationBar a:hover{
+
+    transition: color .2s ease;
+    color: aliceblue;
+
+}
+
+img{
+
+    border-radius: 5%;
+    height: auto;
+    margin: auto;
+    max-width: 350px;
+    opacity: 70%;
+    padding: 10;
+    transition: opacity .5s;
+}
+
+img:hover{
+            
+    opacity: 100%;
+
+}
+
+img.rounded{
+
+    border-radius: 50%;
+
+}
